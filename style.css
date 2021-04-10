@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow: scroll;
+}
+
+div{
+    display : block;
+}
+
+main{
+    max-width: 600px;
+    margin : auto;
+    padding : 1rem;
+}
+
+.heading{
+    background-color : dodgerblue;
+    padding : 1rem 1rem;
+    margin-bottom: 1rem;
+    font-size : 2rem;
+    text-align : center;
+}
+
+#translate-ip{
+    display : block;
+    width : 100%;
+    min-height : 20vh;
+    padding : .5rem .5rem;
+    box-sizing: border-box;
+    font-size : large;
+    margin-top : 2rem;
+}
+
+#translate-btn{
+    display : block;
+    padding : .5rem 1rem;
+    margin : 1rem 1rem;
+    background-color: dodgerblue;
+    border-radius : .5rem;
+    cursor : pointer;
+
+}
+
+#translate-op{
+    box-sizing: border-box;
+    width : 100%;
+    min-height : 10vh;
+    max-height: 20vh;
+    border : 1px solid black;
+    overflow : scroll;
+}
+
+.footer{
+    text-align : center;
+    bottom :0;
+    background-color: dodgerblue;
+    width : 100%;
+    font-size : medium;
+    position : fixed;
+    padding : 1rem;
+}
+
+footer p{
+    max-height: 600px;
+    margin : auto;
+}
+
