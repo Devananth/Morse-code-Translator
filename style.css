@@ -8,18 +8,11 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
-    overflow: scroll;
-}
-
-div{
-    display : block;
-}
-
-main{
     max-width: 600px;
     margin : auto;
-    padding : 1rem;
+    font-family: 'Roboto', sans-serif;
+    overflow: scroll;
+    height: 100vh;
 }
 
 .heading{
@@ -35,7 +28,6 @@ main{
     width : 100%;
     min-height : 20vh;
     padding : .5rem .5rem;
-    box-sizing: border-box;
     font-size : large;
     margin-top : 2rem;
 }
@@ -53,24 +45,35 @@ main{
 #translate-op{
     box-sizing: border-box;
     width : 100%;
-    min-height : 10vh;
-    max-height: 20vh;
+    min-height : 20vh;
+    max-height: 40vh;
     border : 1px solid black;
     overflow : scroll;
 }
 
 .footer{
+    margin-top : 4rem;
     text-align : center;
-    bottom :0;
-    background-color: dodgerblue;
+    background-color : whitesmoke;
     width : 100%;
     font-size : medium;
-    position : fixed;
     padding : 1rem;
 }
 
-footer p{
-    max-height: 600px;
-    margin : auto;
+ul{
+    list-style: none;
+    display : flex;
+    justify-content: center;
+}
+
+a{
+    font-size: 2rem;
+    text-decoration : none;
+    color : none;
+}
+
+li{
+    padding : 1rem;
+
 }
 
